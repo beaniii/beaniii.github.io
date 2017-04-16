@@ -1,1 +1,66 @@
 *{margin: 0;padding: 0;}
+
+
+#header{
+/*    width: 1200px;*/
+    height: 50px;
+    opacity: 0.5;
+    margin:0 auto;
+}
+.top{
+   
+}
+.boygirl #learn{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: aqua;
+}
+#topmenu_home{
+    width: 100px;
+    height: 50px;
+    background-color: chartreuse;
+    color: aliceblue;
+    border-radius: 30px;
+}
+
+a{
+    color: dimgray;
+}
+ul{
+}
+.top li{
+    
+    line-height: 40px;
+    list-style: none;
+    float: left;
+    height: 40px;
+    border: 1px solid #333;
+    font-family: times;
+/*    letter-spacing: 0.05em;*/
+}
+.top2 li{
+    list-style: none;
+    float: left;
+    margin: 10px;
+    line-height: 50px;
+    text-align: center;
+}
+.slider{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.boygirl ul{
+    margin-left: 100px;
+}
+
+.boygirl li{
+    list-style: none;
+    float: left;
+}
+
+
+
+
+
+
