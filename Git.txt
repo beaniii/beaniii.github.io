@@ -1,0 +1,21 @@
+Github가서 new Repository
+
+.io? -> .com, .co.kr 처럼 다른나라에서 쓰는 도메인,
+
+개발자들한테 인기가 많다.
+
+README 내 페이지를 설명할 수 있는 기능.
+
+
+22~3시간 프로젝트 할때 질문을 많이하자
+
+- apollotheme.com/shopify/ap-fellow
+- demo.opencartworks.com/#so_clickboom_layout4
+- exzo-theme.myshopify.com
+
+
+
+현재 질문 
+- 서버를 만들고 거기에 DB연결하기!.
+- 레이아웃. 위치.
+- 현재 만든것 질문.
