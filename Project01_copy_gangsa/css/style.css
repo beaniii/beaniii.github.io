@@ -35,7 +35,26 @@ li{
 .top .top_right li:last-child{border-right: 1px solid #ddd;}
 
 
-
+.nav .nav_right .about{
+    float: right;
+    line-height: 100px;
+}
+.nav .nav_right li{
+    float: left;
+    padding: 0 20px;
+    
+}
+.nav .nav_right #home{
+    width: 50px;
+    height: 70px;
+    background-color: red;
+    
+}
+.nav .nav_right a{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
 
 
 
