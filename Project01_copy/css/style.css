@@ -1,63 +1,51 @@
 *{margin: 0;padding: 0;}
 
-
-#header{
-/*    width: 1200px;*/
-    height: 50px;
-    opacity: 0.5;
-    margin:0 auto;
+/*COMMON*/
+.wrapper{
+   width: 1200px;margin:0 auto;
 }
-.top{
-   
-}
-.boygirl #learn{
-    width: 100px;
-    height: 50px;
-    border-radius: 30px;
-    background-color: aqua;
-}
-#topmenu_home{
-    width: 100px;
-    height: 50px;
-    background-color: chartreuse;
-    color: aliceblue;
-    border-radius: 30px;
+body{
+   background-color: #f1f1f1;color: #444;
 }
 
-a{
-    color: dimgray;
-}
-ul{
-}
-.top li{
-    
-    line-height: 40px;
-    list-style: none;
+/*HEADER*/
+.header{background-color: #fff; border-bottom: 1px solid #ddd;}
+.header .top{ height: 60px; border-bottom: 1px solid #ddd;}
+.header .nav{ height: 100px}
+
+.top .left .left_menu{
     float: left;
-    height: 40px;
-    border: 1px solid #333;
-    font-family: times;
-/*    letter-spacing: 0.05em;*/
+    line-height: 60px;
+    font-size: 12px;color: #999;
+    padding: 0 30px;
+    border-left: 1px solid #ddd;
 }
-.top2 li{
-    list-style: none;
-    float: left;
-    margin: 10px;
-    line-height: 50px;
-    text-align: center;
+.top .left .left_menu span{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
 }
-.slider{
-    margin-top: 100px;
-    margin-left: 100px;
-}
-.boygirl ul{
-    margin-left: 100px;
+.top .left .email{
+    /*여기부분 왜 .top.left를 지워야 선이 그어지*/
+    border-right: 1px solid #ddd;
 }
 
-.boygirl li{
+.top .top_right{float: right;}/*ul을 먼저 플로트 라이트로 해준다.*/
+.top .top_right li{
     list-style: none;
-    float: left;
+    float: left; font-size: 12px;font-weight: bold;line-height: 60px;
+    padding: 0 15px; color: #444;border-left: 1px solid #ddd;
 }
+/*.top .top_right li:last-child{border-right: 1px solid #ddd;}*/
+
+
+
+
+
+
+
+
+
 
 
 
