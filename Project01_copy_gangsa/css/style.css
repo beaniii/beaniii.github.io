@@ -55,8 +55,16 @@ li{
     font-size: 12px;
     font-weight: bold;
 }
+.nav .nav_right .detail{
+    float: right;
+}
 
-
+#nav .nav_right .detail .box1{
+    float: left;
+    width: 500px;
+    height: 400px;
+    background-color: red;
+}
 
 
 
