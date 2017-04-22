@@ -35,9 +35,53 @@ li{
 .top .top_right li:last-child{border-right: 1px solid #ddd;}
 
 
+.nav .nav_right .about{
+    float: right;
+    line-height: 100px;
+}
+.nav .nav_right li{
+    float: left;
+    padding: 0 20px;
+    
+}
 
-
-
+.nav .nav_right #home{
+    width: 50px;
+    height: 70px;
+    background-color: red;
+    
+}
+.nav .nav_right a{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+/*
+.center{
+    position: absolute;
+}
+*/
+/*
+.center .center_top{
+    position: absolute;
+}
+*/
+.center .center_top .slider{
+/*    width: 1200px;*/
+}
+.center .center_top .detail{
+    position: absolute;
+    left: 1200px;
+/*    float: right;*/
+    width: 500px;
+    height: 400px;
+    background-color: red;
+}
+.center .center_top .detail home{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
 
 
 
