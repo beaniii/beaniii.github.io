@@ -68,23 +68,30 @@ li{
 */
 .center .center_top .slider{
 /*    width: 1200px;*/
+    margin-left: 100px;
 }
-.center .center_top .detail{
+.center .center_top .container{
     position: absolute;
-    left: 1200px;
+    left: 900px;
 /*    float: right;*/
-    width: 500px;
-    height: 400px;
-    background-color: red;
+    width: 1000px;
+    height: 600px;
+/*    border: 3px solid black;*/
+/*    background-color: red;*/
 }
-.center .center_top .detail home{
+.center .center_top #home{
     width: 300px;
     height: 300px;
     background-color: aqua;
+    opacity: 0;
 }
-
-
-
+.appear{
+    animation: app_top 1s forwards;
+}
+@keyframes app_top{
+    0%{transform: translateY(100px);opacity: 0;}
+    100%{transform: translateY(0px);opacity: 1;}
+}
 
 
 

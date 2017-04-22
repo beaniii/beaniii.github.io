@@ -1,0 +1,86 @@
+*{margin: 0;padding: 0}
+a{text-decoration: none;color: #444;}
+/*  common  */
+.wrapper{width: 1200px;margin:0 auto;}
+body{background-color: #f1f1f1;color: #444;}
+li{
+    list-style: none;
+    
+}
+
+/*  header  */
+.header{background-color: #fff; border-bottom: 1px solid #ddd;}
+.header .top{ height: 60px; border-bottom: 1px solid #ddd;}
+.header .nav{ height: 100px}
+
+
+
+.top .top_left{float: left;}
+.top .top_left .left_menu{
+    float: left;font-size: 12px;color: #999;
+    line-height: 60px;border-left: 1px solid #ddd;padding: 0 30px;
+}
+
+.top .top_left .email{border-right: 1px solid #ddd;
+}
+
+.top .top_left .left_menu span{
+    color: #444; font-size: 14px;font-weight: bold;
+}
+
+
+
+.top .top_right{float: right;}
+.top .top_right li{float: right; font-size: 12px;font-weight: bold;line-height: 60px;padding: 0 15px; color: #444;border-left: 1px solid #ddd;}
+.top .top_right li:last-child{border-right: 1px solid #ddd;}
+
+/*nav 항상 요소검사를 하자*/
+h1{ float: left;text-align: center;width: 50px;border: 3px solid #000; font-size: 16px;letter-spacing: 3px; padding: 10px 0; margin: 16px 0;}
+.menu{float: right; height: 100px;position: relative;}
+.menu li{float: left; height: 100px; /*padding: 0 15px;*/}
+.menu li a{display: block;height: 34px;text-transform: uppercase;font-size: 12px;font-weight: bold;line-height: 34px; margin: 33px 0px;
+    padding: 0 15px;border-radius: 15px;transition: all .3s ease;}
+.menu li a:hover{background-color: yellowgreen;color: white;}
+/*.search .fa-search{float: right;} 그 태그를 오른쪽으로 보낼때 우리는 부모를 기준으로 잡는것이 좋다*/
+.search {float: right; line-height: 100px;margin-left: 15px;width: 15px;}
+/*sub*/
+.sub{width: 800px;height: 300px;background-color: #fff;position: absolute;top: 100%;right:-30px;border-top: 7px solid yellowgreen;
+    border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;box-shadow: 0px 1px 5px rgba(0,0,0,0.15);display: none;
+}
+.menu li.active a{
+    background-color: yellowgreen;color: #fff;
+}
+/*right:0속성은 오른쪽을 기준으로 잡는다. 그래서 이렇게 하면 위에 메뉴에 relative로 딱 시작부터 시작하고 위에 100%라는값을 줘서 딱 내려오고 오른쪽 정렬.
+    이후에 돋보기에 사이즈를 30px로 잡고 right에 -30해서 딱 맞게 가능한다.
+*/
+.menu li a:hover + .sub{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
