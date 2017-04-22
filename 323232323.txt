@@ -41,3 +41,136 @@
 
 
 
+AWS
+
+아이디 : sting852	@naver.com
+비번	: qwaszx12
+
+!!
+
+유명함
+
+-Cloud라는 개념을 갖고 있다. 클라우드 컴퓨팅!! 유명함,			빅데이터
+
+	구름ide : 언제 어디서나 개발가능.
+	
+
+	AWS 기능
+
+	돈주고 컴퓨터를 가상의 pc를 사는것을 cloud.
+	
+	근데 여기다가 window를 깔려면 라이센스 돈내야함. 
+
+	분산처리기능. > EC2 분산처리해주는 컴퓨터각 하나.
+	
+	위에서 EC2의 용량보고 어디에서 처리할지 해주는게 LB(load base)
+
+	월750시간 EC2 각마다 시간 합산처리함.
+
+	리눅스를 사용한다!.	
+
+	CAFE24 같은 경우는 환경이 설정이 되어있지만, 
+	
+	AWS는 우리가 직접 깔아야한다.
+
+
+
+	처음에는 OS 설정을 한다. 근데 라이센스비용이있다.
+
+	LTS 롬트? -> 많은거 할때 씀
+
+	Ubuntu Server
+
+	하고 다음, 하고 subnet은 아무거나 선택. 다음..다음..
+
+	맨 마지막 화면 create a new key pair.
+
+	choose에다가 create a new key pair 작성.
+
+	그리고 이름 쓰기.
+
+	IPv4 Public IP 52.78.111.146 내 포트번호!
+
+	선생님꺼 13.124.36.222
+
+	맥은 바로 접속가능한데. 윈도우는 프로그램을 하나 깔아야한다.
+
+	putty!! < 이거 jsp랑 톰캣으로 카페24할때 쓰는거니 잘알아두자.
+
+	쁘띠 키 제너레이터 -> 컨버젼에 임포트하고 아까 다운로드받았던 내 
+
+	아이디 pem을 넣어준다. - > Sava private key
+
+	그리고 푸티 킨다. 그리고 Host Name에 아까 내 ip주소를 써준다.
+
+	그리고 SSH - Auth를 클릭 Private key file for authenfication에다가 값을 넣은다.
+
+	뭘?  .ppk 파일을 넣어준다. 경고창뜨고 예 누르고 로그인.
+
+	아이디 : ubuntu 입력. ls입력. 하면 안나온다. cd / 치고 치자
+
+	https://github.com/riahnrhyme/hanpixel-api-nodejs
+
+	하고 /home$ sudo -s root로 바뀐다.
+
+	apt-get update 복사에서 붙여넣기.
+
+	curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+apt-get install -y nodejs	복붙
+
+	그리고 
+
+	mkdir project
+
+	ls
+
+	폴더를 하나만들고 조회한다.
+
+	그리고 그 폴더로 들어갈때 
+
+	cd project/ 			pr누르고 탭.
+
+	vi server.js		자바스크립트 파일을 만든다.
+
+	그러면 아무것도 없다. i를 눌러주자 그러면 insert라는 내용이 나온다.
+	
+	
+
+	node server.js  -> 서버 실행시키기.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
