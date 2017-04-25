@@ -1,7 +1,9 @@
 *{margin: 0;padding: 0}
 .top_bar{
     height: 65px;
-    background-color:lightblue;
+    background-image: url(../images/topBG.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     border-bottom: 1px solid #ddd;
 }
 .top_bar .site_name{
@@ -12,7 +14,7 @@
 a{text-decoration: none;color: #444;}
 /*  common  */
 .wrapper{width: 1200px;margin:0 auto;}
-body{background-color: #f1f1f1;color: #444;}
+body{background-color: #f1f1f1;color: #444; height: 6000px;}
 li{
     list-style: none;
     
@@ -21,7 +23,7 @@ li{
 /*  header  */
 .header{background-color: #fff; border-bottom: 1px solid #ddd;}
 .header .top{ height: 60px; border-bottom: 1px solid #ddd;}
-.header .nav{ height: 150px}
+.header .nav{ height:   120px}
 
 
 
@@ -41,18 +43,18 @@ li{
 
 
 .top .top_right{float: right;}
-.top .top_right li{float: right; font-size: 12px;font-weight: bold;line-height: 60px;padding: 0 15px; color: #444;border-left: 1px solid #ddd;}
-.top .top_right li:last-child{border-right: 1px solid #ddd;}
-
+.top .top_right li{float: left; font-size: 12px;font-weight: bold;line-height: 60px;padding: 0 20px; color: #444;border-left: 1px solid #ddd;}
+/*.top .top_right li:last-child{border-right: 1px solid #ddd;}*/
+.top .top_right:last-child{border-right: 1px solid #ddd;}
 /*nav 항상 요소검사를 하자*/
-.nav h1{ float: left;text-align: center;width: 50px;border: 3px solid #000; font-size: 16px; margin: 20px 0;}
-.menu{float: right; height: 150px;position: relative;}
-.menu li{float: left; height: 150px; /*padding: 0 15px;*/}
-.menu li a{display: block;height: 35px;/*text-transform: uppercase;*/font-size: 12px;font-weight: bold;line-height: 35px; margin: 55px 0px;
+.nav h1{ float: left;text-align: center;width: 70px;border: .5px solid #ddd; font-size: 16px; margin: 20px 0;}
+.menu{float: right; height: 120px;position: relative;}
+.menu li{float: left; height: 120px; /*padding: 0 15px;*/}
+.menu li a{display: block;height: 0px;/*text-transform: uppercase;*/font-size: 15px;font-weight: bold;line-height: 15px; margin: 55px 0px;
     padding: 0 15px;border-radius: 15px;transition: all .3s ease;}
 .menu li a:hover{background-color: yellowgreen;color: white;}
 /*.search .fa-search{float: right;} 그 태그를 오른쪽으로 보낼때 우리는 부모를 기준으로 잡는것이 좋다*/
-.search {float: right; line-height: 150px;margin-left: 15px;width: 15px;}
+.search {float: right; line-height: 120px;margin-left: 15px;width: 15px;}
 .search li a{
     width: 20px;
     height: 20px;
@@ -70,10 +72,28 @@ li{
 .menu li a:hover + .sub{
     display: block;
 }
-
-
-
-
+.center{height: 70px; background-color:white;border-bottom: 1px solid #ddd;}
+.top_menu{height: 30px; border-radius: 13px; background-color: lightskyblue; border-bottom: 1px solid #aaa;}
+.top_menu li{float: left;line-height: 30px;padding: 0 15px;
+    margin: 0px 28px; 
+}
+.top_menu li a{ color: white;font-size: 15px; font-weight: bold;
+    text-transform: uppercase;
+}
+.bot_menu{height: 40px; border-radius: 10px; background-color: skyblue;}
+.bot_menu li{float: left;line-height: 40px;padding: 0 35px;
+    margin: 0px 22px; }
+.bot_menu li a{color: white;font-size: 15px; font-weight: bold;
+    text-transform: uppercase;}
+.center{
+    background-color: darkgray;
+}
+.index_wrap .wrapper{
+    width: 1600px;
+}
+.slider{
+    width: 1600px;
+}
 
 
 
