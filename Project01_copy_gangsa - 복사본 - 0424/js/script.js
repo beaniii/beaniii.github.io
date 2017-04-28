@@ -17,7 +17,9 @@ $(document).ready(function(){
        
 	});
     
-    
+    $('.hot div').hover(function(){
+        $(this).addClass('effect');
+    });
     
     
     

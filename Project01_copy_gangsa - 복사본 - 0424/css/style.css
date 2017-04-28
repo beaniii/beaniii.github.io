@@ -80,21 +80,27 @@ li{
 .top_menu li a{ color: white;font-size: 15px; font-weight: bold;
     text-transform: uppercase;
 }
-.bot_menu{height: 40px; border-radius: 10px; background-color: skyblue;}
-.bot_menu li{float: left;line-height: 40px;padding: 0 35px;
-    margin: 0px 22px; }
+.bot_menu{height: 39px; border-radius: 10px; background-color: skyblue;}
+.bot_menu li{float: left;line-height: 39px;padding: 0 35px;
+    margin: 0px 15px; }
 .bot_menu li a{color: white;font-size: 15px; font-weight: bold;
     text-transform: uppercase;}
 .center{
     background-color: darkgray;
 }
 .index_wrap .wrapper{
-    width: 1600px;
+    
 }
 .slider{
-    width: 1600px;
+    margin: 10px 40px;
 }
-
+.hot div{
+    float: left;
+    width: 295px;
+    height: 300px;
+    margin: 15px 0px;
+    background-position: 100%;
+}
 
 
 
